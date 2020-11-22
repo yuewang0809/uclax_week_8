@@ -1,80 +1,155 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  color: #222222;
   font-size: 16px;
   font-weight: 400;
+  position: relative;
 }
 h1 {
-    font-size: 70px;
-    font-weight: 700;
+  font-weight: 700;
+  font-size: 70px;
+  padding-top: 8rem;
+  margin-bottom: .5rem;
+  line-height: 1.2;
+  margin-top: 0;
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
   }
 h4 {
-    font-size: 21px;
-    font-weight: 700;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 7rem;
+  padding-right: 10rem;
+  color:white;
   }
 h5 {
-    font-size: 17px;
-    font-weight: 700;
-  }
+  font-size: 17px;
+  font-weight: 700;
+}
+
 .menu {
     padding-left: 97px;
     padding-right: 90px;
     padding-top: 60px;
     background: #0cb3f8; }
-.row {
-    background: #222222;
-    position: relative;
-    padding-left: 97px;
-    padding-right: 97px;
-    padding-top: 100px;
-    color: white; }
-    &.hero-image {
-      background: #0cb3f8;
-      padding-top: 30px;
-      font-size: 21px;
-      padding-left: 97px; }
 
-    body .row .description {
-      background-color: #f5f4f4;
-      padding-top: 100px;
-      color: black; }
-    &.price {
-      background: white;
-      border-radius: 5px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      color: #242526; }
-      body .row .price.alt {
-        background: blue;
-        color: white; }
-      body .row .subscribe {
-    background-image: url("../images/cliff.png");
-    color: white;
-    padding-top: 5rem;
-    padding-bottom: 7rem}
+.row{
+  background:#222222;
+  position: relative;
+  padding-left: 97px;
+  padding-right: 97px;
+  padding-top: 100px;
+  color: white;
 
-    body .row .subscribe .user-email {
+  &.hero{
+    background: #0cb3f8;
+     padding-top: 30px;
+     font-size: 21px;
+     padding-left: 97px;
+   &.description {
+     padding-left: 10%;
+  }
+ }
+
+   &.next-big-thing {
+     background-color: #f5f4f4;
+     padding-top: 100px;
+     color: black;
+   }
+
+   &.pricing{
+     background-color: #222222;
+     color:white;
+     padding-top: 5rem;
+     padding-bottom: 7rem;
+   }
+
+   .price {
+       background: white;
+       border-radius: 5px;
+       padding-top: 20px;
+       padding-bottom: 20px;
+       color: #242526;
+       &.alt{
+         background:#1b8bf9;
+         color:white;
+       }
+     }
+
+   .subscribe {
+   background-image: url("../images/cliff.png");
+   background-size: cover;
+   color: white;
+   padding-top: 10rem;
+   padding-bottom: 7rem;
+
+    &.user-email {
     border: none;
     background-color: rgba(146, 146, 146, 0.33);
     border-radius: 5px;
     padding: 0.8rem;
     font-size: 11px;
-    width: 350px; }
+    width: 350px;
+  }
+    &.email-button {
+      background-color: white;
+      border: none;
+      padding-top: 0.8rem;
+      padding-bottom: 0.8rem;
+      padding-left: 4rem;
+      padding-right: 4rem;
+      border-radius: 5px;
+      font-size: 11px;
+      font-weight: 700;
+      box-shadow: 10px 5px 8px #222222;
+      letter-spacing: 1px;
+      margin-left: -20px;
+    }
+ }
+ &.bottoms{
+   padding: 3rem;
+ }
+}
+.button-download {
+  margin-left: 1rem;
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 20px;
+  letter-spacing: 1px;
+}
 
-  body .row .subscribe .email-button {
-    background-color: white;
-    border: none;
-    padding-top: 0.8rem;
-    padding-bottom: 0.8rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    border-radius: 5px;
-    font-size: 11px;
-    font-weight: 700;
-    box-shadow: 10px 5px 8px #222222;
-    letter-spacing: 1px;
-    margin-left: -20px; }
+.button-download:hover {
+  background-color: white;
+  color: #222222;
+  box-shadow: 10px 5px 8px rgba(34, 34, 34, 0.33);
+}
 
-body .row .bottoms{
+.button-learn-more {
+  margin-left: 1rem;
+  background-color: transparent;
+  margin-left: 30px;
+  color: white;
+  letter-spacing: 1px;
+  border: none;
+  margin-top: 1rem
+}
+
+.button-learn-more:hover {
+  border-bottom-color: white;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+}
+.btn-outline-secondary{
+  color:white;
+  border-color: white;
+}
+.bottoms{
   padding: 3rem;
 }

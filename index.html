@@ -20,6 +20,8 @@
   <script src="js/scripts.js"></script>
 </head>
 
+<body>
+
 <div class="d-flex flex-column flex-md-row align-items-center menu">
   <div id="content">
     <img src="images/logo-white.png" alt="Logo" width="30" height="30">
@@ -31,23 +33,25 @@
   <a class="p-2 nav text-white" href="#">CLIENT</a>
   <a class="p-2 nav text-white" href="#">CONTACT</a>
 </div>
+</header>
+  <div class="row hero justify-content-between">
+      <div class="col-8 description">
+        <h1>Make it easy</h1>
+        <br>
+        <h4> See locations and get easy access to messaging, check-in requests and more from your home screen. </h4>
+        <button class="btn buttom-download">&#xF8FF; DOWNLOAD</button>
+        <button type="button" class="btn button-learn-more">LEARN MORE</button>
+      </div>
 
 
-<div class="row hero-image justify-content-between">
-  <div class="col-5 description">
-    <h1>Make it easy</h1>
-    <h4> See locations and get easy access to messaging, check-in requests and more from your home screen. </h4>
-    <button class="btn btn-outline-light mb-2" type="button"><img src="images/apple.png" alt="Apple">DOWNLOAD</button>
-    <button class="btn btn-link" type="button" >LEARN MORE</button>
-  </div>
+      <div class="col-4 float-center">
+        <img src="images/iphone-1.png" alt="iPhone" class="img-fluid">
+      </div>
 
-  <div class="col-4 float-center">
-    <img src="images/iphone-1.png" alt="iPhone" class="">
-  </div>
+    </div>
 
-</div>
 
-<div class="row next-big-thing justify-content-center ">
+<div class="row next-big-thing justify-content-center">
   <div class="col-12">
     <h2 class="text-center">The Next Big Thing</h2>
   </div>
@@ -56,8 +60,7 @@
   </div>
 </div>
 
-<div class="row">
-  <div class="row phone justify-content-around">
+  <div id="next-big-thing" class="row next-big-thing justify-content-around">
     <div class="col-3 text-center">
       <h5 class="">IN APP CONTROL</h5>
       <p> Greatness is a property for which no man can receive credit too soon; it must be possessed long before it is acknowledged.</p>
@@ -70,7 +73,7 @@
 
     </div>
     <div class="col-3 text-center">
-      <img src="images/iphone-2.png" alt="iPhone6" class="">
+      <img src="images/iphone-2.png" alt="iPhone2" class="">
     </div>
     <div class="col-3 text-center">
       <h5 class="">FREE UPDATES</h5>
@@ -96,10 +99,10 @@
   </div>
 </div>
 
-<div class="row justify-content-around">
+<div class="row pricing justify-content-around">
   <div class="col-3 price text-center">
     <p><strong>BASIC</strong></p>
-    <h2 class="">$10</h2>
+    <h2 class=""><strong>$10</strong></h2>
     <p>per month</p>
     <br>
     <br>
@@ -111,10 +114,11 @@
     <br>
     <button class="btn btn-outline-primary">GET STARTED</button>
   </div>
+
   <div class="col-3 price alt text-center">
     <p><strong>MEDIUM</strong></p>
-    <h2 class="">$15</h2>
-    <p>per month</p>
+    <h2 class="">$19</h2>
+    <p><strong>per month</strong></p>
     <br>
     <br>
     <p><img src="images/ok.png" alt="okay"> &nbsp;  10 GB Disk Space</p>
@@ -123,12 +127,13 @@
     <p><img src="images/ok.png" alt="okay"> &nbsp;  Unlimited Users</p>
     <br>
     <br>
-    <button class="btn btn-outline-primary">TRY NOW</button>
+    <button class="btn btn-outline-secondary">TRY NOW</button>
   </div>
+
   <div class="col-3 price text-center">
     <p><strong>INTERPRISE</strong></p>
-    <h2 class="">$20</h2>
-    <p>per month</p>
+    <h2 class="">$39</h2>
+    <p><strong>per month</strong></p>
     <br>
     <br>
     <p><img src="images/ok.png" alt="okay"> &nbsp;  50 GB Disk Space</p>
@@ -140,28 +145,24 @@
     <button class="btn btn-outline-primary">GET STARTED</button>
   </div>
 
-  <div class="row subscribe justify-content-center ">
+  <div class="row subscribe justify-content-center">
     <div class="col-12">
-      <h2 class="text-center">Subscribe Now</h2>
-    </div>
+        <h2 class="text-center">Subscribe now</h2>
+      </div>
     <div class="col-6">
-      <p class="text-center"> The purpose of a good educaton is to show you that there are three sides to a two-sided story.</p>
+        <p class="text-center">The purpose of a good education is to show you that there are three sides to a two-sided story.</p>
+      </div>
     </div>
-  </div>
 
-  <div class="subcribe">
-    <div class="col-12 form-area">
+    <div class="subcribe">
+        <div class="col-12 form-area">
 
-      <form class="form-inline">
-        <div class="form-group mx-sm-3 mb-2">
-          <label for="inputPassword2" class="sr-only">Password</label>
-          <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-        </div>
-        <button type="submit" class="btn btn-primary mb-2">Submit</button>
-      </form>
-
+        <form class="form-inline">
+          <input class="user-email" type="text" placeholder="Your email" aria-label="">
+          <button type="submit" class="btn btn-primary mb-2">Submit</button>
+        </form>
+      </div>
     </div>
-  </div>
 
 </div>
 <footer>
