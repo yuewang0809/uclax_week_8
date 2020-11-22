@@ -1,2 +1,67 @@
 body {
+  font-family: 'Montserrat', sans-serif; }
+  h1 {
+    font-size: 70px;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 44px;
+    font-weight: 700;
+  }
+  h5 {
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .menu {
+    padding-left: 97px;
+    padding-right: 90px;
+    padding-top: 60px;
+    background: #0cb3f8;
+  }
+  .row {
+    background: #222222;
+    position: relative;
+    padding-left: 97px;
+    padding-right: 97px;
+    padding-top: 100px;
+    color: white;
+  }
+  &.hero-image {
+    background: #0cb3f8;
+    padding-top: 30px;
+    font-size: 21px;
+    padding-left: 97px;
+  }
+  &.description {
+    padding-top: 100px;
+    color: white;
+  }
+  &.new-big-thing {
+    background-color: whitesmoke;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-size: 13px;
+  }
+
+  &.price {
+    background: white;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #242526;
+  }
+  &.price.alt {
+    background: blue;
+    color: white;
+  }
+
+  &.subscribe {
+    background-image: url("images/cliff.png");
+    background-size: cover;
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+  }
+.bottoms{
+  padding: 3rem;
 }
